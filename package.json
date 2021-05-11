@@ -1,7 +1,7 @@
 {
   "name": "boostrap-treeview",
   "version": "1.0.0",
-  "author":"Guillaume Gomez <guillaume.gomez846@gmail.com>",
+  "author": "Guillaume Gomez <guillaume.gomez846@gmail.com>",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -11,6 +11,8 @@
     "transpile": "npx webpack --config webpack.config.js"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.168",
+    "lodash": "^4.17.21",
     "ts-loader": "^9.1.2",
     "typescript": "^4.2.4",
     "webpack-cli": "^4.7.0"
