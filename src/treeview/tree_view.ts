@@ -1,5 +1,5 @@
 import TreeItem from "./tree_item";
-import  "./tree_view.css";
+import  "./css/tree_view.css";
 import {
   ActionEnum, TreeItemData, HandlersTreeViewInterface,
 } from "./tree_view_interface";

@@ -1,4 +1,6 @@
 import { camelCase } from "lodash";
+import "./css/container_list.css";
+
 import { ContainerData } from "./pick_containers_interface";
 
 const CONTAINER_LIST_ID = "container_list";
