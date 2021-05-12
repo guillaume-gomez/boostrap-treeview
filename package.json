@@ -8,7 +8,8 @@
     "url": "https://github.com/guillaume-gomez/boostrap-treeview.git"
   },
   "scripts": {
-    "transpile": "npx webpack --config webpack.config.js --mode development"
+    "transpile-dev": "npx webpack --config webpack.config.js --mode development --watch",
+    "transpile": "npx webpack --config webpack.config.js --mode production"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
