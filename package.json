@@ -11,13 +11,17 @@
     "transpile": "npx webpack --config webpack.config.js --mode development"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "@popperjs/core": "^2.9.2",
+    "@types/axios": "^0.14.0",
     "@types/bootstrap": "^5.0.13",
     "@types/lodash": "^4.14.168",
+    "axios": "^0.21.1",
     "boostrap": "^2.0.0",
     "bootstrap": "5.0.0",
     "css-loader": "^5.2.4",
     "lodash": "^4.17.21",
+    "miragejs": "^0.1.41",
     "popper.js": "^1.16.1",
     "sass": "^1.32.12",
     "sass-loader": "^11.1.0",
